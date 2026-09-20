@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="logo.png" alt="Apex" width="120" />
-
 # Apex Panel
 
 <p>
@@ -14,7 +12,6 @@
 <p>
   <img src="https://img.shields.io/badge/Users-Multi--User-2563EB?style=for-the-badge" alt="Multi-User" />
   <img src="https://img.shields.io/badge/Version-1.0.0-7C3AED?style=for-the-badge" alt="Version 1.0.0" />
-  <a href="https://github.com/netrair/Apex/stargazers"><img src="https://img.shields.io/github/stars/netrair/Apex?style=for-the-badge&logo=github&color=8B5CF6" alt="GitHub Stars" /></a>
   <a href="https://t.me/NetraIR"><img src="https://img.shields.io/badge/Telegram-NetraIR-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Channel" /></a>
 </p>
 
