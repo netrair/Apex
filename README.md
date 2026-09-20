@@ -3,13 +3,13 @@
 # Apex Panel
 
 <p>
-  <a href="https://workers.cloudflare.com/"><img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" /></a>
-  <a href="https://developers.cloudflare.com/d1/"><img src="https://img.shields.io/badge/Cloudflare-D1-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare D1" /></a>
-  <img src="https://img.shields.io/badge/Protocol-VLESS-00ADD8?style=for-the-badge&logo=v&logoColor=white" alt="VLESS" />
-  <img src="https://img.shields.io/badge/Protocol-Trojan-00ADD8?style=for-the-badge&logo=trojan&logoColor=white" alt="Trojan" />
-  <img src="https://img.shields.io/badge/Users-Multi--User-2563EB?style=for-the-badge" alt="Multi-User" />
-  <img src="https://img.shields.io/badge/Version-1.0.0-7C3AED?style=for-the-badge" alt="Version 1.0.0" />
-  <a href="https://t.me/NetraIR"><img src="https://img.shields.io/badge/Telegram-NetraIR-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Channel" /></a>
+  <a href="https://workers.cloudflare.com/"><img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" /></a>
+  <a href="https://developers.cloudflare.com/d1/"><img src="https://img.shields.io/badge/Cloudflare-D1-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare D1" /></a>
+  <img src="https://img.shields.io/badge/Protocol-VLESS-00ADD8?style=flat-square&logo=v&logoColor=white" alt="VLESS" />
+  <img src="https://img.shields.io/badge/Protocol-Trojan-00ADD8?style=flat-square&logo=trojan&logoColor=white" alt="Trojan" />
+  <img src="https://img.shields.io/badge/Users-Multi--User-2563EB?style=flat-square" alt="Multi-User" />
+  <img src="https://img.shields.io/badge/Version-1.0.0-7C3AED?style=flat-square" alt="Version 1.0.0" />
+  <a href="https://t.me/NetraIR"><img src="https://img.shields.io/badge/Telegram-NetraIR-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Channel" /></a>
 </p>
 
 **Language / زبان / 语言:** [English](#english) | [فارسی](#%D9%81%D8%A7%D8%B1%D8%B3%DB%8C) | [中文](#%E4%B8%AD%E6%96%87)
@@ -54,6 +54,8 @@ A free, self-hosted VLESS / Trojan proxy panel with **built-in multi-user manage
 4. Open your Worker → **Settings → Bindings → Add → D1 database**, select the database, and set the variable name to exactly `netra`.
 5. Paste the contents of `worker.js` into the Worker editor and deploy.
 6. Open `https://<your-worker-url>/apex/panel` and create an admin password (min. 8 characters) on your first visit.
+
+> 🤖 **Prefer not to do this by hand?** Message [@ApexIRBot](https://t.me/ApexIRBot) on Telegram and it will walk you through the deployment.
 
 That's it — the panel works right away with sensible defaults. Afterward you can customize everything (secure path, UUID, Trojan password, ports, routing rules, etc.) from inside the panel.
 
@@ -114,6 +116,8 @@ Questions, news and updates: join the Telegram channel **[@NetraIR](https://t.me
 5. محتوای فایل `worker.js` رو توی ویرایشگر Worker جای‌گذاری و دیپلوی کنید.
 6. آدرس `https://<آدرس-worker-شما>/apex/panel` رو باز کنید و بار اول یک رمز ادمین (حداقل ۸ کاراکتر) برای پنل بسازید.
 
+> 🤖 **دوست نداری دستی انجامش بدی؟** به ربات [@ApexIRBot](https://t.me/ApexIRBot) توی تلگرام پیام بده تا مراحل نصب رو براتون انجام بده.
+
 همین! پنل بلافاصله با تنظیمات پیش‌فرض کار می‌کنه. بعداً می‌تونید همه‌چیز (مسیر امن، UUID، پسورد Trojan، پورت‌ها، قوانین مسیریابی و...) رو از داخل پنل شخصی‌سازی کنید.
 
 > ⚠️ **مهم:** حتماً باید دیتابیس D1 رو بسازید، فایل `schema.sql` رو توی Console اجرا کنید و دیتابیس رو با نام متغیر دقیقاً `netra` به Worker وصل کنید. اگه هرکدوم از این مراحل انجام نشه، پنل خطا می‌ده و درست نصب نمی‌شه.
@@ -172,6 +176,8 @@ Questions, news and updates: join the Telegram channel **[@NetraIR](https://t.me
 4. 打开你的 Worker → **Settings → Bindings → Add → D1 database**，选择该数据库，并将变量名设置为 `netra`（必须完全一致）。
 5. 将 `worker.js` 的内容粘贴到 Worker 编辑器中并部署。
 6. 打开 `https://<你的-worker-地址>/apex/panel`，首次访问时创建管理员密码（至少 8 个字符）。
+
+> 🤖 **不想手动操作？** 在 Telegram 上给 [@ApexIRBot](https://t.me/ApexIRBot) 发消息，它会帮你完成部署。
 
 就这么简单 —— 面板会立即使用合理的默认配置正常运行。之后你可以在面板内自定义所有设置（安全路径、UUID、Trojan 密码、端口、路由规则等）。
 
