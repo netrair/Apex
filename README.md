@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/Protocol-VLESS-00ADD8?style=for-the-badge&logo=v&logoColor=white" alt="VLESS" />
   <img src="https://img.shields.io/badge/Protocol-Trojan-00ADD8?style=for-the-badge&logo=trojan&logoColor=white" alt="Trojan" />
 </p>
-
 <p>
   <img src="https://img.shields.io/badge/Users-Multi--User-2563EB?style=for-the-badge" alt="Multi-User" />
   <img src="https://img.shields.io/badge/Version-1.0.0-7C3AED?style=for-the-badge" alt="Version 1.0.0" />
